@@ -1,0 +1,1301 @@
+2025-07-06 11:10:12,600 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:10:12,600 - main - INFO - 🗺️ Google Maps API: ❌ Not configured
+2025-07-06 11:10:12,600 - main - INFO - 🌤️ OpenWeather API: ❌ Not configured
+2025-07-06 11:10:12,600 - main - INFO - 🤖 Groq AI API: ❌ Not configured
+2025-07-06 11:10:12,604 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:10:12,604 - agents - WARNING - ⚠️ GROQ_API_KEY not found in environment variables
+2025-07-06 11:10:12,604 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:10:12,604 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:10:38,378 - agents - INFO - ✅ User registered: Test
+2025-07-06 11:10:43,818 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 11:10:43,825 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 11:10:43,825 - main - INFO - 🎯 Response from groq_ai_agent: I'm here to help with vehicle controls, navigation, music, and climate. Please ask me something spec...
+2025-07-06 11:10:53,966 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 11:10:53,967 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 11:10:53,967 - tools - INFO - 🌍 Using real browser location: 16.720643712562218, 81.10702141286428
+2025-07-06 11:10:53,967 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Location: 16.7206°N, 81.1070°E...
+2025-07-06 11:10:53,967 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Location: 16.7206°N, 81.1070°E...
+2025-07-06 11:11:29,774 - main - INFO - 🎤 Processing input from Test: 'Find malls nearer to me'
+2025-07-06 11:11:29,775 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 11:11:29,775 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.36) -> navigation_agent
+2025-07-06 11:11:29,775 - tools - INFO - 🔍 Searching for shopping_mall near 16.720643712562218, 81.10702141286428
+2025-07-06 11:11:29,776 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 3 shopping_mall near you:
+
+📍 Sample Shoppi...
+2025-07-06 11:11:29,776 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 3 shopping_mall near you:
+
+📍 Sample Shopping_Mall 1 (2.3km away)
+📍 Sample Shopping_Mall 2 (3...
+2025-07-06 11:12:12,696 - main - INFO - 🔄 Shutting down...
+2025-07-06 11:12:14,638 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:12:14,638 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 11:12:14,638 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 11:12:14,638 - main - INFO - 🤖 Groq AI API: ❌ Not configured
+2025-07-06 11:12:14,638 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:12:14,638 - agents - WARNING - ⚠️ GROQ_API_KEY not found in environment variables
+2025-07-06 11:12:14,638 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:12:14,638 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:13:01,785 - main - INFO - 🔄 Shutting down...
+2025-07-06 11:13:03,380 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:13:03,380 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 11:13:03,380 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 11:13:03,380 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 11:13:03,381 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:13:03,381 - agents - WARNING - ⚠️ Groq package not installed
+2025-07-06 11:13:03,381 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:13:03,381 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:13:06,721 - main - INFO - 🔄 Shutting down...
+2025-07-06 11:13:16,036 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:13:16,036 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 11:13:16,036 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 11:13:16,036 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 11:13:16,036 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:13:16,048 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 11:13:16,048 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:13:16,048 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:13:24,083 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 11:13:24,088 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 11:13:25,033 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 11:13:25,039 - agents - INFO - 🤖 Groq AI response: Hi there! Welcome to our smart vehicle. I'm here t...
+2025-07-06 11:13:25,040 - main - INFO - 🎯 Response from groq_ai_agent: Hi there! Welcome to our smart vehicle. I'm here to help you navigate and make your ride more comfor...
+2025-07-06 11:13:31,021 - main - INFO - 🎤 Processing input from Test: 'What is my current location'
+2025-07-06 11:13:31,022 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 11:13:31,022 - tools - INFO - 🌍 Using real browser location: 16.720587871414853, 81.10733042965855
+2025-07-06 11:13:31,971 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, IN...
+2025-07-06 11:13:31,971 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, IN...
+2025-07-06 11:13:41,325 - main - INFO - 🎤 Processing input from Test: 'Find nearest hotels'
+2025-07-06 11:13:41,326 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 11:13:41,326 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.81) -> navigation_agent
+2025-07-06 11:13:41,326 - tools - INFO - 🔍 Searching for establishment near 16.720587871414853, 81.10733042965855
+2025-07-06 11:13:41,972 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Sury...
+2025-07-06 11:13:41,972 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanitary...
+2025-07-06 11:13:52,636 - main - INFO - 🎤 Processing input from Test: 'Find nearest temples'
+2025-07-06 11:13:52,637 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 11:13:52,637 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.99) -> navigation_agent
+2025-07-06 11:13:52,637 - tools - INFO - 🔍 Searching for place_of_worship near 16.720587871414853, 81.10733042965855
+2025-07-06 11:13:53,207 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 place_of_worship near you:
+
+1. 📍 Hotel S...
+2025-07-06 11:13:53,207 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 place_of_worship near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanit...
+2025-07-06 11:27:07,393 - main - INFO - 🔄 Shutting down...
+2025-07-06 11:27:08,368 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:27:08,368 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 11:27:08,368 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 11:27:08,368 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 11:27:08,371 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:27:08,390 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 11:27:08,390 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:27:08,390 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:38:24,379 - main - INFO - 🔄 Shutting down...
+2025-07-06 11:38:25,188 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 11:38:25,188 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 11:38:25,189 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 11:38:25,189 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 11:38:25,191 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 11:38:25,207 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 11:38:25,207 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 11:38:25,207 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 11:38:37,857 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 11:38:37,866 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 11:38:38,816 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 11:38:38,820 - agents - INFO - 🤖 Groq AI response: Hello! Welcome to our smart vehicle. How can I ass...
+2025-07-06 11:38:38,820 - main - INFO - 🎯 Response from groq_ai_agent: Hello! Welcome to our smart vehicle. How can I assist you today?...
+2025-07-06 11:38:49,351 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 11:38:49,352 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 11:38:49,352 - tools - INFO - 🌍 Using real browser location: 16.720598255135986, 81.1071184075301
+2025-07-06 11:38:50,292 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 11:38:50,292 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 11:38:58,851 - main - INFO - 🎤 Processing input from Test: 'Find nearest hotels'
+2025-07-06 11:38:58,851 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 11:38:58,851 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.81) -> navigation_agent
+2025-07-06 11:38:58,852 - tools - INFO - 🔍 Searching for lodging near 16.720598255135986, 81.1071184075301
+2025-07-06 11:38:59,520 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 lodging near you:
+
+1. 📍 Manya Guestline ...
+2025-07-06 11:38:59,521 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 lodging near you:
+
+1. 📍 Manya Guestline (1.0km away) ⭐ 3.2/5
+2. 📍 Hotel Surya Residency (1...
+2025-07-06 11:53:51,610 - main - INFO - 🎤 Processing input from Test: 'Navigate to Adithya Central'
+2025-07-06 11:53:51,611 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 11:53:51,612 - tools - INFO - 🗺️ Getting directions to 'adithya central' from 16.720607767749545, 81.10711634357591
+2025-07-06 11:53:52,455 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: D.no 4-15-5, LIC...
+2025-07-06 11:53:52,455 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: D.no 4-15-5, LIC Road, beside Balaji theatre, Main Bazar, Agrahara...
+2025-07-06 11:54:01,164 - main - INFO - 🎤 Processing input from Test: 'Tell me something interesting'
+2025-07-06 11:54:01,165 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Tell me something interesting'
+2025-07-06 11:54:01,978 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 11:54:01,983 - agents - INFO - 🤖 Groq AI response: Did you know that Eluru is famous for its golden t...
+2025-07-06 11:54:01,983 - main - INFO - 🎯 Response from groq_ai_agent: Did you know that Eluru is famous for its golden temples, with the famous Golden Temple of Lord Venk...
+2025-07-06 11:54:12,941 - main - INFO - 🎤 Processing input from Test: 'How is the weather?'
+2025-07-06 11:54:12,942 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 11:54:12,942 - intent_disambiguation - INFO - 🎯 Intent: vehicle_info/vehicle_inquiry (confidence: 0.40) -> vehicle_info_agent
+2025-07-06 11:54:12,942 - agents - INFO - 🎯 Routed to vehicle_info_agent: I don't have information about 'general'. I can te...
+2025-07-06 11:54:12,942 - main - INFO - 🎯 Response from vehicle_info_agent: I don't have information about 'general'. I can tell you about: Tesla Model 3, BMW 3 Series, Honda C...
+2025-07-06 11:55:07,088 - main - INFO - 🎤 Processing input from Test: 'Find nearest hospitals'
+2025-07-06 11:55:07,089 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 11:55:07,090 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.99) -> navigation_agent
+2025-07-06 11:55:07,090 - tools - INFO - 🔍 Searching for hospital near 16.720607767749545, 81.10711634357591
+2025-07-06 11:55:08,021 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 hospital near you:
+
+1. 📍 Akbar Medical S...
+2025-07-06 11:55:08,022 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 hospital near you:
+
+1. 📍 Akbar Medical Shop (48m away) ⭐ 5/5
+2. 📍 Dr.Shamima begum general...
+2025-07-06 11:55:22,865 - main - INFO - 🎤 Processing input from Test: 'Navigate to Vidmayi first aid clinic'
+2025-07-06 11:55:22,866 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 11:55:22,866 - tools - INFO - 🗺️ Getting directions to 'vidmayi first aid clinic' from 16.720607767749545, 81.10711634357591
+2025-07-06 11:55:23,318 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: P495+R9H, Pappal...
+2025-07-06 11:55:23,319 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: P495+R9H, Pappalavari St, Powerpet, Eluru, Andhra Pradesh 534002, ...
+2025-07-06 11:56:14,050 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 11:56:14,051 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 11:56:14,052 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 11:56:14,052 - agents - INFO - 🎯 Routed to entertainment_agent: Playing track1.mp3...
+2025-07-06 11:56:14,052 - main - INFO - 🎯 Response from entertainment_agent: Playing track1.mp3...
+2025-07-06 11:57:58,467 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 11:57:58,469 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 11:57:58,469 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 11:57:58,469 - agents - INFO - 🎯 Routed to entertainment_agent: Playing track1.mp3...
+2025-07-06 11:57:58,469 - main - INFO - 🎯 Response from entertainment_agent: Playing track1.mp3...
+2025-07-06 11:58:11,544 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 11:58:11,548 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 11:58:11,548 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 11:58:11,548 - agents - INFO - 🎯 Routed to entertainment_agent: Playing track1.mp3...
+2025-07-06 11:58:11,548 - main - INFO - 🎯 Response from entertainment_agent: Playing track1.mp3...
+2025-07-06 11:59:22,401 - main - INFO - 🎤 Processing input from Test: 'Spots to visit in eluru'
+2025-07-06 11:59:22,403 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Spots to visit in eluru'
+2025-07-06 11:59:23,039 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 11:59:23,046 - agents - INFO - 🤖 Groq AI response: Eluru! That's a great destination. I can suggest s...
+2025-07-06 11:59:23,046 - main - INFO - 🎯 Response from groq_ai_agent: Eluru! That's a great destination. I can suggest some popular spots to visit in Eluru. You can try s...
+2025-07-06 11:59:32,875 - main - INFO - 🎤 Processing input from Test: 'Tourist attractions near me'
+2025-07-06 11:59:32,876 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: near
+2025-07-06 11:59:32,876 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.36) -> navigation_agent
+2025-07-06 11:59:32,876 - tools - INFO - 🔍 Searching for establishment near 16.72061615686463, 81.10708374905403
+2025-07-06 11:59:33,750 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Sury...
+2025-07-06 11:59:33,750 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanitary...
+2025-07-06 11:59:41,627 - main - INFO - 🎤 Processing input from Test: 'Places to visit in eluru'
+2025-07-06 11:59:41,628 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit in eluru'
+2025-07-06 11:59:42,210 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 11:59:42,212 - agents - INFO - 🤖 Groq AI response: Eluru has a lot to offer! You can try searching fo...
+2025-07-06 11:59:42,212 - main - INFO - 🎯 Response from groq_ai_agent: Eluru has a lot to offer! You can try searching for "places to visit in Eluru" to get a list of reco...
+2025-07-06 11:59:59,092 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Museum'
+2025-07-06 11:59:59,093 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 11:59:59,093 - tools - INFO - 🗺️ Getting directions to 'eluru museum' from 16.72061615686463, 81.10708374905403
+2025-07-06 11:59:59,870 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 11:59:59,871 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 12:10:09,929 - main - INFO - 🎤 Processing input from Test: 'can you tell me my current location'
+2025-07-06 12:10:09,931 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 12:10:09,931 - tools - INFO - 🌍 Using real browser location: 16.72061615686463, 81.10708374905403
+2025-07-06 12:10:10,474 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 12:10:10,474 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 12:10:17,278 - main - INFO - 🎤 Processing input from Test: 'find places to visit'
+2025-07-06 12:10:17,278 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 12:10:17,278 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'find places to visit'
+2025-07-06 12:10:19,152 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:10:19,156 - agents - INFO - 🤖 Groq AI response: You're already in Eluru! Let me suggest some popul...
+2025-07-06 12:10:19,157 - main - INFO - 🎯 Response from groq_ai_agent: You're already in Eluru! Let me suggest some popular places to visit. You can try searching for "pla...
+2025-07-06 12:10:28,981 - main - INFO - 🎤 Processing input from Test: 'places to visit in Eluru'
+2025-07-06 12:10:28,982 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'places to visit in Eluru'
+2025-07-06 12:10:29,955 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:10:29,957 - agents - INFO - 🤖 Groq AI response: You're already in Eluru! Let me suggest some popul...
+2025-07-06 12:10:29,957 - main - INFO - 🎯 Response from groq_ai_agent: You're already in Eluru! Let me suggest some popular places to visit. You can try searching for "pla...
+2025-07-06 12:10:43,528 - main - INFO - 🎤 Processing input from Test: 'navigate to Kotilingeshwara Swamy Temple'
+2025-07-06 12:10:43,529 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:10:43,529 - tools - INFO - 🗺️ Getting directions to 'kotilingeshwara swamy temple' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:10:44,380 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Templ...
+2025-07-06 12:10:44,380 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Temple, Road, Kammasandra, Karnataka 563121, India
+📏 Di...
+2025-07-06 12:11:03,140 - main - INFO - 🎤 Processing input from Test: 'navigate to Kotilingeshwara Swamy Temple'
+2025-07-06 12:11:03,140 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:11:03,140 - tools - INFO - 🗺️ Getting directions to 'kotilingeshwara swamy temple' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:11:04,227 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Templ...
+2025-07-06 12:11:04,227 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Temple, Road, Kammasandra, Karnataka 563121, India
+📏 Di...
+2025-07-06 12:11:21,721 - main - INFO - 🎤 Processing input from Test: 'Navigate to Kotilingeswara Swamy Temple'
+2025-07-06 12:11:21,722 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:11:21,723 - tools - INFO - 🗺️ Getting directions to 'kotilingeswara swamy temple' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:11:22,496 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Templ...
+2025-07-06 12:11:22,496 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Koti linga Temple, Road, Kammasandra, Karnataka 563121, India
+📏 Di...
+2025-07-06 12:12:48,068 - main - INFO - 🔄 Shutting down...
+2025-07-06 12:12:48,871 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 12:12:48,871 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 12:12:48,871 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 12:12:48,871 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 12:12:48,871 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 12:12:48,887 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 12:12:48,887 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 12:12:48,887 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 12:13:34,678 - main - INFO - 🎤 Processing input from Test: 'How is the weather outside'
+2025-07-06 12:13:34,680 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 12:13:34,690 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 0.40) -> navigation_agent
+2025-07-06 12:13:35,104 - agents - INFO - 🎯 Routed to navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (fe...
+2025-07-06 12:13:35,105 - main - INFO - 🎯 Response from navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (feels like 37°C)
+💧 Humidity: 45%
+💨 Wind: 28.7 km/h...
+2025-07-06 12:13:48,785 - main - INFO - 🎤 Processing input from Test: 'Places to visit'
+2025-07-06 12:13:48,786 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit'
+2025-07-06 12:13:50,148 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:13:50,152 - agents - INFO - 🤖 Groq AI response: 🗺️ Ah, nice day to explore! 😊 For places to visit ...
+2025-07-06 12:13:50,152 - main - INFO - 🎯 Response from groq_ai_agent: 🗺️ Ah, nice day to explore! 😊 For places to visit in Eluru, I'd recommend checking out the Ksheera R...
+2025-07-06 12:14:04,620 - main - INFO - 🎤 Processing input from Test: 'Navigate to Ksheera Ramalingeswara Temple'
+2025-07-06 12:14:04,622 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.39) -> navigation_agent
+2025-07-06 12:14:04,622 - tools - INFO - 🗺️ Getting directions to 'ksheera ramalingeswara temple' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:14:05,209 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Main Rd, Palakol...
+2025-07-06 12:14:05,209 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Main Rd, Palakollu, Andhra Pradesh 534260, India
+📏 Distance: 105 k...
+2025-07-06 12:14:22,586 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Museum'
+2025-07-06 12:14:22,587 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.39) -> navigation_agent
+2025-07-06 12:14:22,588 - tools - INFO - 🗺️ Getting directions to 'eluru museum' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:14:22,966 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 12:14:22,966 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 12:14:44,484 - main - INFO - 🎤 Processing input from Test: 'Navigate to Government Hospital'
+2025-07-06 12:14:44,485 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.39) -> navigation_agent
+2025-07-06 12:14:44,486 - tools - INFO - 🗺️ Getting directions to 'government hospital' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:14:44,901 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation to government hospital
+📍 Destination:...
+2025-07-06 12:14:44,902 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation to government hospital
+📍 Destination: government hospital
+📏 Distance: Calculating...
+⏱️...
+2025-07-06 12:15:07,459 - main - INFO - 🎤 Processing input from Test: 'Navigate to Government Hospital'
+2025-07-06 12:15:07,461 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.39) -> navigation_agent
+2025-07-06 12:15:07,461 - tools - INFO - 🗺️ Getting directions to 'government hospital' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:15:07,824 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation to government hospital
+📍 Destination:...
+2025-07-06 12:15:07,824 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation to government hospital
+📍 Destination: government hospital
+📏 Distance: Calculating...
+⏱️...
+2025-07-06 12:19:35,703 - main - INFO - 🎤 Processing input from Test: 'videos in the'
+2025-07-06 12:19:35,706 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'videos in the'
+2025-07-06 12:19:36,617 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:19:36,623 - agents - INFO - 🤖 Groq AI response: I think you're looking for some entertainment! You...
+2025-07-06 12:19:36,623 - main - INFO - 🎯 Response from groq_ai_agent: I think you're looking for some entertainment! You can ask me to play a video on the in-vehicle info...
+2025-07-06 12:19:47,017 - main - INFO - 🎤 Processing input from Test: 'tell me something interesting'
+2025-07-06 12:19:47,019 - intent_disambiguation - INFO - 🎯 Intent: general_conversation/greetings (confidence: 0.39) -> user_experience_agent
+2025-07-06 12:19:47,019 - agents - INFO - 🎯 Routed to user_experience_agent: I'm here to help you with your vehicle. I can cont...
+2025-07-06 12:19:47,019 - main - INFO - 🎯 Response from user_experience_agent: I'm here to help you with your vehicle. I can control climate, music, navigation, and vehicle system...
+2025-07-06 12:20:09,163 - main - INFO - 🎤 Processing input from Test: 'places to visit'
+2025-07-06 12:20:09,164 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'places to visit'
+2025-07-06 12:20:09,735 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:20:09,739 - agents - INFO - 🤖 Groq AI response: You're looking for some exciting places to visit? ...
+2025-07-06 12:20:09,740 - main - INFO - 🎯 Response from groq_ai_agent: You're looking for some exciting places to visit? I can help you with that! Try saying "find attract...
+2025-07-06 12:20:18,815 - main - INFO - 🎤 Processing input from Test: 'find attractions near me'
+2025-07-06 12:20:18,815 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 12:20:18,816 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 1.00) -> navigation_agent
+2025-07-06 12:20:18,816 - tools - INFO - 🔍 Searching for establishment near 16.72061615686463, 81.10708374905403
+2025-07-06 12:20:19,943 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Sury...
+2025-07-06 12:20:19,943 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanitary...
+2025-07-06 12:22:29,000 - main - INFO - 🔄 Shutting down...
+2025-07-06 12:22:29,808 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 12:22:29,808 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 12:22:29,808 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 12:22:29,808 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 12:22:29,808 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 12:22:29,824 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 12:22:29,824 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 12:22:29,824 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 12:22:50,024 - main - INFO - 🎤 Processing input from Test: 'how is the weather'
+2025-07-06 12:22:50,029 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 12:22:50,032 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 1.00) -> navigation_agent
+2025-07-06 12:22:50,385 - agents - INFO - 🎯 Routed to navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (fe...
+2025-07-06 12:22:50,385 - main - INFO - 🎯 Response from navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (feels like 37°C)
+💧 Humidity: 45%
+💨 Wind: 28.7 km/h...
+2025-07-06 12:23:02,754 - main - INFO - 🎤 Processing input from Test: 'find places to visit'
+2025-07-06 12:23:02,755 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 12:23:02,757 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'find places to visit'
+2025-07-06 12:23:03,457 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:23:03,463 - agents - INFO - 🤖 Groq AI response: What a perfect day for an adventure! 🌞 Since the w...
+2025-07-06 12:23:03,463 - main - INFO - 🎯 Response from groq_ai_agent: What a perfect day for an adventure! 🌞 Since the weather is warm and sunny, I'd recommend checking o...
+2025-07-06 12:23:13,791 - main - INFO - 🎤 Processing input from Test: 'find parks near me'
+2025-07-06 12:23:13,791 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 12:23:13,792 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.99) -> navigation_agent
+2025-07-06 12:23:13,792 - tools - INFO - 🔍 Searching for establishment near 16.72061615686463, 81.10708374905403
+2025-07-06 12:23:14,375 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Sury...
+2025-07-06 12:23:14,376 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanitary...
+2025-07-06 12:23:28,161 - main - INFO - 🎤 Processing input from Test: 'tourist places near me'
+2025-07-06 12:23:28,162 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: near
+2025-07-06 12:23:28,163 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.36) -> navigation_agent
+2025-07-06 12:23:28,163 - tools - INFO - 🔍 Searching for establishment near 16.72061615686463, 81.10708374905403
+2025-07-06 12:23:28,615 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Sury...
+2025-07-06 12:23:28,615 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 establishment near you:
+
+1. 📍 Hotel Surya Residency (1.1km away) ⭐ 3.4/5
+2. 📍 VRK Sanitary...
+2025-07-06 12:23:45,725 - main - INFO - 🎤 Processing input from Test: 'tell me something interesting'
+2025-07-06 12:23:45,727 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'tell me something interesting'
+2025-07-06 12:23:46,318 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:23:46,321 - agents - INFO - 🤖 Groq AI response: Did you know that Eluru is home to the famous Koti...
+2025-07-06 12:23:46,322 - main - INFO - 🎯 Response from groq_ai_agent: Did you know that Eluru is home to the famous Kotilingala Temple, a stunning ancient temple dedicate...
+2025-07-06 12:24:00,849 - main - INFO - 🎤 Processing input from Test: 'something interesting about Vijayawada'
+2025-07-06 12:24:00,850 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'something interesting about Vijayawada'
+2025-07-06 12:24:01,441 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:24:01,444 - agents - INFO - 🤖 Groq AI response: Did you know that Vijayawada is home to the famous...
+2025-07-06 12:24:01,444 - main - INFO - 🎯 Response from groq_ai_agent: Did you know that Vijayawada is home to the famous Kanaka Durga Temple, a beautiful temple situated ...
+2025-07-06 12:24:14,871 - main - INFO - 🎤 Processing input from Test: 'anything to visit near Eluru'
+2025-07-06 12:24:14,871 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: near
+2025-07-06 12:24:14,872 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'anything to visit near Eluru'
+2025-07-06 12:24:15,611 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:24:15,613 - agents - INFO - 🤖 Groq AI response: 📍 Ah, you're looking for places to visit near Elur...
+2025-07-06 12:24:15,613 - main - INFO - 🎯 Response from groq_ai_agent: 📍 Ah, you're looking for places to visit near Eluru! 🔍 I've got some recommendations for you:
+
+1. 🏯 ...
+2025-07-06 12:24:25,966 - main - INFO - 🎤 Processing input from Test: 'navigate to Eluru lake'
+2025-07-06 12:24:25,967 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:24:25,967 - tools - INFO - 🗺️ Getting directions to 'eluru lake' from 16.72061615686463, 81.10708374905403
+2025-07-06 12:24:26,365 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 12:24:26,365 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 12:24:51,280 - main - INFO - 🎤 Processing input from Test: 'play some music for me'
+2025-07-06 12:24:51,281 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.45) -> entertainment_agent
+2025-07-06 12:24:51,282 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 12:24:51,282 - agents - INFO - 🎯 Routed to entertainment_agent: Playing track1.mp3...
+2025-07-06 12:24:51,282 - main - INFO - 🎯 Response from entertainment_agent: Playing track1.mp3...
+2025-07-06 12:25:00,880 - main - INFO - 🎤 Processing input from Test: 'pause music'
+2025-07-06 12:25:00,880 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 12:25:00,880 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 12:25:00,881 - agents - INFO - 🎯 Routed to entertainment_agent: Music paused...
+2025-07-06 12:25:00,881 - main - INFO - 🎯 Response from entertainment_agent: Music paused...
+2025-07-06 12:25:05,288 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 60}'
+2025-07-06 12:25:05,972 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 60}'
+2025-07-06 12:25:06,006 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:06,008 - agents - INFO - 🤖 Groq AI response: I've adjusted the volume to 60%. Enjoy the music!...
+2025-07-06 12:25:06,134 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 70}'
+2025-07-06 12:25:06,503 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:06,508 - agents - INFO - 🤖 Groq AI response: I've adjusted the volume to 70%. You're all set!...
+2025-07-06 12:25:06,833 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:06,835 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume. T...
+2025-07-06 12:25:08,737 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:08,737 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:09,548 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:09,549 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:10,387 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:10,387 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:10,750 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:10,751 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:11,724 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 12:25:12,137 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:12,139 - agents - INFO - 🤖 Groq AI response: I'll help you with climate control. Try saying 'tu...
+2025-07-06 12:25:13,229 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:13,230 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:13,614 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:13,615 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:14,086 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:14,086 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:14,402 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 12:25:14,402 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:15,249 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 12:25:15,670 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:15,673 - agents - INFO - 🤖 Groq AI response: I'll help you with climate control. Try saying 'tu...
+2025-07-06 12:25:17,842 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute lock_doors with parameters {}'
+2025-07-06 12:25:18,270 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:18,272 - agents - INFO - 🤖 Groq AI response: Let's get your doors locked up securely. Try sayin...
+2025-07-06 12:25:19,000 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute unlock_doors with parameters {}'
+2025-07-06 12:25:19,403 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:19,404 - agents - INFO - 🤖 Groq AI response: Let's get your doors unlocked! Try saying "unlock ...
+2025-07-06 12:25:26,499 - main - INFO - 🎤 Processing input from Test: 'turn AC off'
+2025-07-06 12:25:26,500 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'turn AC off'
+2025-07-06 12:25:27,007 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:27,009 - agents - INFO - 🤖 Groq AI response: I've turned off the air conditioning for you. If y...
+2025-07-06 12:25:27,010 - main - INFO - 🎯 Response from groq_ai_agent: I've turned off the air conditioning for you. If you want to turn it back on, just say "turn on AC"!...
+2025-07-06 12:25:35,045 - main - INFO - 🎤 Processing input from Test: 'turn AC on'
+2025-07-06 12:25:35,045 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'turn AC on'
+2025-07-06 12:25:35,581 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:25:35,583 - agents - INFO - 🤖 Groq AI response: I've turned on the air conditioning for you! If yo...
+2025-07-06 12:25:35,583 - main - INFO - 🎯 Response from groq_ai_agent: I've turned on the air conditioning for you! If you want to adjust the temperature, try saying "set ...
+2025-07-06 12:25:44,714 - main - INFO - 🎤 Processing input from Test: 'set temperature to 25'
+2025-07-06 12:25:44,715 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 1.00) -> climate_agent
+2025-07-06 12:25:44,715 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 12:25:44,715 - main - INFO - 🎯 Response from climate_agent: I'll help you with climate control. Try saying 'set temperature to 22' or 'turn on AC'....
+2025-07-06 12:30:17,886 - main - INFO - 🔄 Shutting down...
+2025-07-06 12:30:18,703 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 12:30:18,704 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 12:30:18,704 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 12:30:18,704 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 12:30:18,706 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 12:30:18,723 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 12:30:18,723 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 12:30:18,723 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 12:43:31,026 - main - INFO - 🔄 Shutting down...
+2025-07-06 12:43:31,933 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 12:43:31,933 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 12:43:31,933 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 12:43:31,933 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 12:43:31,935 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 12:43:31,951 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 12:43:31,951 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 12:43:31,951 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 12:43:42,182 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 12:43:42,189 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 12:43:42,936 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:43:42,940 - agents - INFO - 🤖 Groq AI response: Hi there! Welcome to our smart vehicle. I'm here t...
+2025-07-06 12:43:42,941 - main - INFO - 🎯 Response from groq_ai_agent: Hi there! Welcome to our smart vehicle. I'm here to help you with anything you need, from answering ...
+2025-07-06 12:43:50,962 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 12:43:50,963 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 12:43:50,964 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location?'
+2025-07-06 12:43:50,964 - agents - INFO - 📍 Processing location request
+2025-07-06 12:43:50,964 - tools - INFO - 🌍 Using real browser location: 16.720618752888825, 81.10705035301353
+2025-07-06 12:43:52,115 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 12:43:52,116 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 12:43:57,527 - main - INFO - 🎤 Processing input from Test: 'Places to visit in Eluru'
+2025-07-06 12:43:57,528 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit in Eluru'
+2025-07-06 12:43:58,154 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 12:43:58,157 - agents - INFO - 🤖 Groq AI response: Eluru has a lot to offer! 🌴 You can visit the famo...
+2025-07-06 12:43:58,157 - main - INFO - 🎯 Response from groq_ai_agent: Eluru has a lot to offer! 🌴 You can visit the famous Kotilingeswara Temple, which is a popular pilgr...
+2025-07-06 12:45:09,278 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Musuem'
+2025-07-06 12:45:09,280 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:45:09,280 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to eluru musuem'
+2025-07-06 12:45:09,280 - agents - INFO - 🧭 Processing directions request
+2025-07-06 12:45:09,282 - agents - INFO - 🎯 Routed to navigation_agent: 🗺️ I can help you with navigation and finding plac...
+2025-07-06 12:45:09,282 - main - INFO - 🎯 Response from navigation_agent: 🗺️ I can help you with navigation and finding places! Try asking about:
+
+• Places to visit and touri...
+2025-07-06 12:45:26,141 - main - INFO - 🎤 Processing input from Test: 'Find nearest hospitals'
+2025-07-06 12:45:26,142 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 12:45:26,143 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.99) -> navigation_agent
+2025-07-06 12:45:26,143 - agents - INFO - 🔧 NavigationAgent processing: 'find nearest hospitals'
+2025-07-06 12:45:26,143 - agents - INFO - 🔍 Processing place search request
+2025-07-06 12:45:26,143 - agents - INFO - 🎯 Detected hospital request
+2025-07-06 12:45:26,143 - agents - INFO - 🔧 Extracted place type: 'hospital' from message: 'find nearest hospitals'
+2025-07-06 12:45:26,143 - tools - INFO - 🔍 Enhanced search for hospital near 16.720618752888825, 81.10705035301353
+2025-07-06 12:45:26,143 - tools - INFO - 🔧 Mapping place_type 'hospital' to Google type 'hospital'
+2025-07-06 12:45:26,945 - tools - INFO - 🔧 Found 10 places of type 'hospital'
+2025-07-06 12:45:26,947 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 10 Hospital near you:
+
+1. 📍 Akbar Medical ...
+2025-07-06 12:45:26,947 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 10 Hospital near you:
+
+1. 📍 Akbar Medical Shop (Medical) - 54m away ⭐ 5/5
+2. 📍 Dr.Shamima be...
+2025-07-06 12:45:39,211 - main - INFO - 🎤 Processing input from Test: 'Navigate to Andhra Hospitals'
+2025-07-06 12:45:39,211 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 12:45:39,211 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to andhra hospitals'
+2025-07-06 12:45:39,211 - agents - INFO - 🧭 Processing directions request
+2025-07-06 12:45:39,212 - agents - INFO - 🎯 Routed to navigation_agent: 🗺️ I can help you with navigation and finding plac...
+2025-07-06 12:45:39,212 - main - INFO - 🎯 Response from navigation_agent: 🗺️ I can help you with navigation and finding places! Try asking about:
+
+• Places to visit and touri...
+2025-07-06 13:10:04,945 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:10:05,919 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:10:05,919 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:10:05,919 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:10:05,919 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:10:05,921 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:10:05,937 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:10:05,937 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:10:05,937 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:10:12,636 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 13:10:12,642 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 13:11:13,011 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.421559 seconds
+2025-07-06 13:11:14,093 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:11:14,102 - agents - INFO - 🤖 Groq AI response: Hello! It's great to have you on board! How can I ...
+2025-07-06 13:11:14,103 - main - INFO - 🎯 Response from groq_ai_agent: Hello! It's great to have you on board! How can I assist you today?...
+2025-07-06 13:11:14,127 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:11:14,772 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:11:14,772 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:11:14,772 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:11:14,772 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:11:14,773 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:11:14,788 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:11:14,788 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:11:14,788 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:11:34,514 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:11:35,113 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:11:35,113 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:11:35,113 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:11:35,113 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:11:35,113 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:11:35,128 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:11:35,128 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:11:35,128 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:12:09,403 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:12:10,026 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:12:10,026 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:12:10,026 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:12:10,026 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:12:10,026 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:12:10,040 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:12:10,041 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:12:10,041 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:12:21,731 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 13:12:21,737 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 13:12:22,550 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:12:22,554 - agents - INFO - 🤖 Groq AI response: Hi there! Welcome to our smart vehicle! I'm your f...
+2025-07-06 13:12:22,554 - main - INFO - 🎯 Response from groq_ai_agent: Hi there! Welcome to our smart vehicle! I'm your friendly AI assistant, here to help you navigate an...
+2025-07-06 13:12:30,163 - main - INFO - 🎤 Processing input from Test: 'Tell me something interesting'
+2025-07-06 13:12:30,164 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Tell me something interesting'
+2025-07-06 13:12:31,099 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:12:31,102 - agents - INFO - 🤖 Groq AI response: What a great question! Did you know that our smart...
+2025-07-06 13:12:31,102 - main - INFO - 🎯 Response from groq_ai_agent: What a great question! Did you know that our smart vehicle is equipped with some amazing features th...
+2025-07-06 13:12:47,235 - main - INFO - 🎤 Processing input from Test: 'What is my current location>'
+2025-07-06 13:12:47,238 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 13:12:47,239 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location>'
+2025-07-06 13:12:47,239 - agents - INFO - 📍 Processing location request
+2025-07-06 13:12:47,239 - tools - INFO - 🌍 Using real browser location: 16.720618752888825, 81.10705035301353
+2025-07-06 13:12:47,738 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:12:47,738 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:12:55,002 - main - INFO - 🎤 Processing input from Test: 'Find places to visit nearby'
+2025-07-06 13:12:55,002 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 13:12:55,003 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 0.36) -> navigation_agent
+2025-07-06 13:12:55,003 - agents - INFO - 🔧 NavigationAgent processing: 'find places to visit nearby'
+2025-07-06 13:12:55,003 - agents - INFO - 🔍 Processing place search request
+2025-07-06 13:12:55,003 - agents - INFO - 🎯 Detected tourist attraction request
+2025-07-06 13:12:55,003 - agents - INFO - 🔧 Extracted place type: 'tourist_attraction' from message: 'find places to visit nearby'
+2025-07-06 13:12:55,003 - tools - INFO - 🔍 Enhanced search for tourist_attraction near 16.720618752888825, 81.10705035301353
+2025-07-06 13:12:55,003 - tools - INFO - 🔧 Mapping place_type 'tourist_attraction' to Google type 'tourist_attraction'
+2025-07-06 13:12:55,676 - tools - INFO - 🔧 Found 8 places of type 'tourist_attraction'
+2025-07-06 13:12:55,678 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 8 places to visit near you:
+
+1. 📍 Old bust...
+2025-07-06 13:12:55,679 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 8 places to visit near you:
+
+1. 📍 Old bustand over bridge (Tourist Attraction) - 942m away ⭐...
+2025-07-06 13:13:14,497 - main - INFO - 🎤 Processing input from Test: 'Navigate to Abhaya Buddha Statue'
+2025-07-06 13:13:14,498 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 13:13:14,498 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to abhaya buddha statue'
+2025-07-06 13:13:14,499 - agents - INFO - 🧭 Processing directions request
+2025-07-06 13:13:14,499 - agents - INFO - 🎯 Extracted destination: 'abhaya buddha statue' from: 'navigate to abhaya buddha statue'
+2025-07-06 13:13:14,499 - tools - INFO - 🗺️ Getting directions to 'abhaya buddha statue' from 16.720618752888825, 81.10705035301353
+2025-07-06 13:13:14,928 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: P457+92W, beside...
+2025-07-06 13:13:14,928 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: P457+92W, beside Eluru, Main Bazar, Paidichintapadu, Eluru, Andhra...
+2025-07-06 13:13:39,835 - main - INFO - 🎤 Processing input from Test: 'What are the trending topics today'
+2025-07-06 13:13:39,836 - intent_disambiguation - INFO - 🎯 Intent: vehicle_info/vehicle_inquiry (confidence: 0.40) -> vehicle_info_agent
+2025-07-06 13:13:39,836 - agents - INFO - 🎯 Routed to vehicle_info_agent: I don't have information about 'general'. I can te...
+2025-07-06 13:13:39,836 - main - INFO - 🎯 Response from vehicle_info_agent: I don't have information about 'general'. I can tell you about: Tesla Model 3, BMW 3 Series, Honda C...
+2025-07-06 13:14:06,832 - main - INFO - 🎤 Processing input from Test: 'How is the weather?'
+2025-07-06 13:14:06,834 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 13:14:06,834 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 1.00) -> navigation_agent
+2025-07-06 13:14:06,834 - agents - INFO - 🔧 NavigationAgent processing: 'how is the weather?'
+2025-07-06 13:14:06,835 - agents - INFO - 🌤️ Processing weather request
+2025-07-06 13:14:07,277 - agents - INFO - 🎯 Routed to navigation_agent: 🌤️ Weather in Eluru, IN: 35°C, Overcast Clouds (fe...
+2025-07-06 13:14:07,278 - main - INFO - 🎯 Response from navigation_agent: 🌤️ Weather in Eluru, IN: 35°C, Overcast Clouds (feels like 38°C)
+💧 Humidity: 45%
+💨 Wind: 27.3 km/h...
+2025-07-06 13:14:22,326 - main - INFO - 🎤 Processing input from Test: 'Places to visit in Vijayawada'
+2025-07-06 13:14:22,327 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit in Vijayawada'
+2025-07-06 13:14:23,708 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:14:23,714 - agents - INFO - 🤖 Groq AI response: A new destination! 😊
+
+For your next stop, I'd be h...
+2025-07-06 13:14:23,715 - main - INFO - 🎯 Response from groq_ai_agent: A new destination! 😊
+
+For your next stop, I'd be happy to help you with places to visit in Vijayawad...
+2025-07-06 13:14:39,617 - main - INFO - 🎤 Processing input from Test: 'Places to visit in Eluru'
+2025-07-06 13:14:39,617 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit in Eluru'
+2025-07-06 13:14:40,432 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:14:40,435 - agents - INFO - 🤖 Groq AI response: 🌟 Eluru, a beautiful city! 😊
+
+For your next stop, ...
+2025-07-06 13:14:40,435 - main - INFO - 🎯 Response from groq_ai_agent: 🌟 Eluru, a beautiful city! 😊
+
+For your next stop, I'd be happy to help you with places to visit in E...
+2025-07-06 13:14:50,287 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Museu'
+2025-07-06 13:14:50,288 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 13:14:50,288 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to eluru museu'
+2025-07-06 13:14:50,288 - agents - INFO - 🧭 Processing directions request
+2025-07-06 13:14:50,288 - agents - INFO - 🎯 Extracted destination: 'eluru museu' from: 'navigate to eluru museu'
+2025-07-06 13:14:50,289 - tools - INFO - 🗺️ Getting directions to 'eluru museu' from 16.720618752888825, 81.10705035301353
+2025-07-06 13:14:50,878 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 13:14:50,879 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 13:16:47,671 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 13:16:47,675 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:16:47,679 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 13:16:47,680 - agents - INFO - 🎯 Routed to entertainment_agent: Playing track1.mp3...
+2025-07-06 13:16:47,680 - main - INFO - 🎯 Response from entertainment_agent: Playing track1.mp3...
+2025-07-06 13:17:14,221 - main - INFO - 🎤 Processing input from Test: 'Pause Music'
+2025-07-06 13:17:14,223 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:17:14,223 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:17:14,224 - agents - INFO - 🎯 Routed to entertainment_agent: Music paused...
+2025-07-06 13:17:14,224 - main - INFO - 🎯 Response from entertainment_agent: Music paused...
+2025-07-06 13:38:23,670 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:38:24,639 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:38:24,639 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:38:24,640 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:38:24,640 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:38:24,643 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:38:24,660 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:38:24,660 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:38:24,660 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:38:31,488 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 13:38:31,494 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:38:31,515 - tools - INFO - 🎵 ACTUALLY PLAYING: track2.mp3 from data/music/track2.mp3
+2025-07-06 13:38:31,515 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track2.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 13:38:31,515 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:38:31,515 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:38:47,092 - main - INFO - 🎤 Processing input from Test: 'Next Track'
+2025-07-06 13:38:47,094 - intent_disambiguation - INFO - 🎯 Intent: music/track_navigation (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:38:47,095 - tools - INFO - 🎵 ACTUALLY PLAYING NEXT: track1.mp3
+2025-07-06 13:38:47,096 - tools - INFO - 🚗 Vehicle state updated - music: {'current_index': 1, 'current_track': 'track1.mp3', 'track_position': 0, 'playing': True}
+2025-07-06 13:38:47,096 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Next track: track1.mp3...
+2025-07-06 13:38:47,096 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Next track: track1.mp3...
+2025-07-06 13:38:57,907 - main - INFO - 🎤 Processing input from Test: 'Pause Music'
+2025-07-06 13:38:57,908 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:38:57,908 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:38:57,908 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:38:57,909 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:38:57,909 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:39:01,547 - main - INFO - 🎤 Processing input from Test: 'Resume music'
+2025-07-06 13:39:01,548 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:39:01,548 - tools - INFO - 🎵 ACTUALLY PLAYING: track1.mp3 from data/music/track1.mp3
+2025-07-06 13:39:01,549 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 1, 'track_position': 0}
+2025-07-06 13:39:01,549 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:39:01,549 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:39:39,474 - main - INFO - 🎤 Processing input from Test: 'pause music'
+2025-07-06 13:39:39,475 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:39:39,475 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:39:39,476 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:39:39,476 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:39:39,476 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:39:42,775 - main - INFO - 🎤 Processing input from Test: 'play music'
+2025-07-06 13:39:42,775 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:39:42,776 - tools - INFO - 🎵 ACTUALLY PLAYING: track1.mp3 from data/music/track1.mp3
+2025-07-06 13:39:42,776 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 1, 'track_position': 0}
+2025-07-06 13:39:42,776 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:39:42,776 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:39:46,733 - main - INFO - 🎤 Processing input from Test: 'next track'
+2025-07-06 13:39:46,734 - intent_disambiguation - INFO - 🎯 Intent: music/track_navigation (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:39:46,735 - tools - INFO - 🎵 ACTUALLY PLAYING NEXT: track2.mp3
+2025-07-06 13:39:46,735 - tools - INFO - 🚗 Vehicle state updated - music: {'current_index': 0, 'current_track': 'track2.mp3', 'track_position': 0, 'playing': True}
+2025-07-06 13:39:46,736 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Next track: track2.mp3...
+2025-07-06 13:39:46,736 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Next track: track2.mp3...
+2025-07-06 13:39:53,354 - main - INFO - 🎤 Processing input from Test: 'propose pause'
+2025-07-06 13:39:53,355 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'propose pause'
+2025-07-06 13:39:54,640 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:39:54,647 - agents - INFO - 🤖 Groq AI response: 🎵 Music paused...
+2025-07-06 13:39:54,647 - main - INFO - 🎯 Response from groq_ai_agent: 🎵 Music paused...
+2025-07-06 13:39:59,370 - main - INFO - 🎤 Processing input from Test: 'pause music'
+2025-07-06 13:39:59,371 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:39:59,371 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:39:59,371 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:39:59,371 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:39:59,371 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:45:31,767 - main - INFO - 🎤 Processing input from Test: 'what is my current location'
+2025-07-06 13:45:31,769 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 13:45:31,770 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location'
+2025-07-06 13:45:31,770 - agents - INFO - 📍 Processing location request
+2025-07-06 13:45:31,770 - tools - INFO - 🌍 Using real browser location: 16.720618752888825, 81.10705035301353
+2025-07-06 13:45:32,311 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:45:32,311 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:45:38,203 - main - INFO - 🎤 Processing input from Test: 'find tourist places to visit in Eluru'
+2025-07-06 13:45:38,203 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 13:45:38,204 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'find tourist places to visit in Eluru'
+2025-07-06 13:45:39,587 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:45:39,590 - agents - INFO - 🤖 Groq AI response: 📍 Ah, you're in Eluru, AP, IN! I'd be happy to hel...
+2025-07-06 13:45:39,591 - main - INFO - 🎯 Response from groq_ai_agent: 📍 Ah, you're in Eluru, AP, IN! I'd be happy to help you discover some amazing tourist places to visi...
+2025-07-06 13:45:57,704 - main - INFO - 🎤 Processing input from Test: 'navigate me to Kolleru Lake'
+2025-07-06 13:45:57,705 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'navigate me to Kolleru Lake'
+2025-07-06 13:45:58,403 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:45:58,405 - agents - INFO - 🤖 Groq AI response: 📍 Ah, Kolleru Lake is a wonderful destination! To ...
+2025-07-06 13:45:58,405 - main - INFO - 🎯 Response from groq_ai_agent: 📍 Ah, Kolleru Lake is a wonderful destination! To navigate to Kolleru Lake, I'd be happy to provide ...
+2025-07-06 13:46:20,436 - main - INFO - 🎤 Processing input from Test: 'find hotels'
+2025-07-06 13:46:20,436 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 13:46:20,437 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'find hotels'
+2025-07-06 13:46:21,232 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:46:21,235 - agents - INFO - 🤖 Groq AI response: 📍 Ah, you're looking for a place to rest your head...
+2025-07-06 13:46:21,235 - main - INFO - 🎯 Response from groq_ai_agent: 📍 Ah, you're looking for a place to rest your head after a long day of exploring Eluru's tourist att...
+2025-07-06 13:46:35,512 - main - INFO - 🎤 Processing input from Test: 'navigate me to Swarna Palace'
+2025-07-06 13:46:35,513 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'navigate me to Swarna Palace'
+2025-07-06 13:46:36,587 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:46:36,588 - agents - INFO - 🤖 Groq AI response: 📍 Ah, you'd like to head to Hotel Swarna Palace? I...
+2025-07-06 13:46:36,588 - main - INFO - 🎯 Response from groq_ai_agent: 📍 Ah, you'd like to head to Hotel Swarna Palace? I'd be happy to provide you with turn-by-turn direc...
+2025-07-06 13:56:45,182 - main - INFO - 🔄 Shutting down...
+2025-07-06 13:56:46,657 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 13:56:46,657 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 13:56:46,657 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 13:56:46,657 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 13:56:46,660 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 13:56:46,678 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 13:56:46,678 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 13:56:46,678 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 13:56:52,880 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 13:56:52,888 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 13:56:53,936 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:56:53,943 - agents - INFO - 🤖 Groq AI response: Hello there! Welcome to our smart vehicle! I'm you...
+2025-07-06 13:56:53,943 - main - INFO - 🎯 Response from groq_ai_agent: Hello there! Welcome to our smart vehicle! I'm your friendly AI assistant, here to help you navigate...
+2025-07-06 13:56:58,704 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 13:56:58,705 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 13:56:58,705 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location?'
+2025-07-06 13:56:58,705 - agents - INFO - 📍 Processing location request
+2025-07-06 13:56:58,705 - tools - INFO - 🌍 Using real browser location: 16.720538845290662, 81.10725273681118
+2025-07-06 13:56:59,242 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:56:59,243 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 13:57:02,482 - main - INFO - 🎤 Processing input from Test: 'Find Hotels'
+2025-07-06 13:57:02,484 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 13:57:02,484 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Find Hotels'
+2025-07-06 13:57:03,266 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:57:03,268 - agents - INFO - 🤖 Groq AI response: You're looking for some accommodations during your...
+2025-07-06 13:57:03,268 - main - INFO - 🎯 Response from groq_ai_agent: You're looking for some accommodations during your stay in Eluru, AP, IN! 😊
+
+I'd be happy to help yo...
+2025-07-06 13:57:25,929 - main - INFO - 🎤 Processing input from Test: 'Navigate to Hotel Vinayaka'
+2025-07-06 13:57:25,931 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 13:57:25,931 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to hotel vinayaka'
+2025-07-06 13:57:25,931 - agents - INFO - 🧭 Processing directions request
+2025-07-06 13:57:25,932 - agents - INFO - 🎯 Extracted destination: 'hotel vinayaka' from: 'navigate to hotel vinayaka'
+2025-07-06 13:57:25,932 - tools - INFO - 🗺️ Getting directions to 'hotel vinayaka' from 16.720538845290662, 81.10725273681118
+2025-07-06 13:57:27,085 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Swargiya Sitamai...
+2025-07-06 13:57:27,086 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Swargiya Sitamai Savaliram Kale Marg, Kale Nagar, Viveka Nand Naga...
+2025-07-06 13:57:39,047 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Museum'
+2025-07-06 13:57:39,048 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 13:57:39,048 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to eluru museum'
+2025-07-06 13:57:39,048 - agents - INFO - 🧭 Processing directions request
+2025-07-06 13:57:39,048 - agents - INFO - 🎯 Extracted destination: 'eluru museum' from: 'navigate to eluru museum'
+2025-07-06 13:57:39,049 - tools - INFO - 🗺️ Getting directions to 'eluru museum' from 16.720538845290662, 81.10725273681118
+2025-07-06 13:57:39,739 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 13:57:39,740 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 13:57:45,647 - main - INFO - 🎤 Processing input from Test: 'How is the weather'
+2025-07-06 13:57:45,647 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 13:57:45,648 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 1.00) -> navigation_agent
+2025-07-06 13:57:45,648 - agents - INFO - 🔧 NavigationAgent processing: 'how is the weather'
+2025-07-06 13:57:45,648 - agents - INFO - 🌤️ Processing weather request
+2025-07-06 13:57:46,025 - agents - INFO - 🎯 Routed to navigation_agent: 🌤️ Weather in Eluru, IN: 35°C, Overcast Clouds (fe...
+2025-07-06 13:57:46,025 - main - INFO - 🎯 Response from navigation_agent: 🌤️ Weather in Eluru, IN: 35°C, Overcast Clouds (feels like 39°C)
+💧 Humidity: 48%
+💨 Wind: 27.3 km/h...
+2025-07-06 13:58:17,151 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 13:58:17,152 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:58:17,205 - tools - INFO - 🎵 ACTUALLY PLAYING: track2.mp3 from data/music/track2.mp3
+2025-07-06 13:58:17,207 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track2.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 13:58:17,208 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:58:17,208 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:58:21,432 - main - INFO - 🎤 Processing input from Test: 'Pause Music'
+2025-07-06 13:58:21,432 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:58:21,433 - tools - INFO - 🎵 DEBUG: current_playing=True, is_pygame_paused=False
+2025-07-06 13:58:21,433 - tools - INFO - 🎵 DEBUG: pygame.mixer.music.get_busy()=True
+2025-07-06 13:58:21,433 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:58:21,433 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:58:21,433 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:58:21,433 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:58:25,781 - main - INFO - 🎤 Processing input from Test: 'Resume Music'
+2025-07-06 13:58:25,783 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:58:25,784 - tools - INFO - 🎵 ACTUALLY PLAYING: track2.mp3 from data/music/track2.mp3
+2025-07-06 13:58:25,784 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track2.mp3', 'current_index': 0, 'track_position': 0}
+2025-07-06 13:58:25,785 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:58:25,785 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track2.mp3...
+2025-07-06 13:58:29,894 - main - INFO - 🎤 Processing input from Test: 'Next track'
+2025-07-06 13:58:29,894 - intent_disambiguation - INFO - 🎯 Intent: music/track_navigation (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:58:29,896 - tools - INFO - 🎵 ACTUALLY PLAYING NEXT: track1.mp3
+2025-07-06 13:58:29,897 - tools - INFO - 🚗 Vehicle state updated - music: {'current_index': 1, 'current_track': 'track1.mp3', 'track_position': 0, 'playing': True}
+2025-07-06 13:58:29,897 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Next track: track1.mp3...
+2025-07-06 13:58:29,897 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Next track: track1.mp3...
+2025-07-06 13:58:33,560 - main - INFO - 🎤 Processing input from Test: 'Pasue Music'
+2025-07-06 13:58:33,561 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Pasue Music'
+2025-07-06 13:58:34,208 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:58:34,211 - agents - INFO - 🤖 Groq AI response: 🎵 Music paused....
+2025-07-06 13:58:34,211 - main - INFO - 🎯 Response from groq_ai_agent: 🎵 Music paused....
+2025-07-06 13:58:37,600 - main - INFO - 🎤 Processing input from Test: 'Pause Music'
+2025-07-06 13:58:37,601 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:58:37,601 - tools - INFO - 🎵 DEBUG: current_playing=True, is_pygame_paused=False
+2025-07-06 13:58:37,601 - tools - INFO - 🎵 DEBUG: pygame.mixer.music.get_busy()=True
+2025-07-06 13:58:37,601 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:58:37,601 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:58:37,601 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:58:37,601 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:58:43,595 - main - INFO - 🎤 Processing input from Test: 'Resume Music'
+2025-07-06 13:58:43,596 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:58:43,598 - tools - INFO - 🎵 ACTUALLY PLAYING: track1.mp3 from data/music/track1.mp3
+2025-07-06 13:58:43,599 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 1, 'track_position': 0}
+2025-07-06 13:58:43,599 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:58:43,599 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:59:12,259 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 40}'
+2025-07-06 13:59:12,724 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 40}'
+2025-07-06 13:59:12,820 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:12,823 - agents - INFO - 🤖 Groq AI response: I've received the command to set the volume to 40%...
+2025-07-06 13:59:13,287 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:13,288 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:13,294 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 30}'
+2025-07-06 13:59:13,592 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 30}'
+2025-07-06 13:59:13,798 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:13,800 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:13,930 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 20}'
+2025-07-06 13:59:14,111 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:14,113 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:14,230 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 20}'
+2025-07-06 13:59:14,425 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:14,428 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:14,725 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:14,728 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:14,875 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:15,220 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:15,535 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:15,558 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:15,561 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:15,745 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 0}'
+2025-07-06 13:59:15,760 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:15,762 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:15,947 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 0}'
+2025-07-06 13:59:16,135 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 0}'
+2025-07-06 13:59:16,144 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:16,147 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:16,290 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:16,293 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:16,327 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 0}'
+2025-07-06 13:59:16,477 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:16,479 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:16,993 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:16,996 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:17,062 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:17,071 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:17,229 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:17,326 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:17,328 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-07-06 13:59:17,417 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:17,507 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:17,509 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-07-06 13:59:17,597 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:17,716 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:17,718 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-07-06 13:59:17,762 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:17,861 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:17,862 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-07-06 13:59:17,935 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:18,040 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:18,042 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:18,101 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:18,187 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:18,188 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:24,745 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:24,748 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:24,755 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:24,781 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:24,782 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:24,789 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:24,840 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:24,841 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-07-06 13:59:24,861 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:24,862 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-07-06 13:59:24,892 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:24,892 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-07-06 13:59:24,946 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:24,948 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:24,957 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:24,961 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:24,965 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2025-07-06 13:59:25,065 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:25,066 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2025-07-06 13:59:25,149 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:25,151 - agents - INFO - 🤖 Groq AI response: I've received your request to adjust the volume to...
+2025-07-06 13:59:25,162 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:25,247 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:25,248 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 22.000000 seconds
+2025-07-06 13:59:36,009 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:36,011 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2025-07-06 13:59:36,043 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:36,044 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 12.000000 seconds
+2025-07-06 13:59:36,056 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:36,057 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6612, Requested 521. Please try again in 11.33s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:36,060 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:36,141 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:36,142 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2025-07-06 13:59:40,408 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:40,411 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute set_volume with parameters {'volume': 10}'
+2025-07-06 13:59:40,418 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute pause_music with parameters {}'
+2025-07-06 13:59:40,422 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute pause_music with parameters {}'
+2025-07-06 13:59:40,425 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute pause_music with parameters {}'
+2025-07-06 13:59:40,474 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:40,479 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:40,515 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:40,515 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:40,528 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:40,529 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:40,611 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:40,611 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:40,615 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:40,615 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-07-06 13:59:42,030 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:42,031 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6013, Requested 521. Please try again in 5.349s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:42,136 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:42,136 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:44,652 - main - INFO - 🎤 Processing input from Test: 'Play Music'
+2025-07-06 13:59:44,653 - intent_disambiguation - INFO - 🎯 Intent: music/playback_control (confidence: 0.81) -> entertainment_agent
+2025-07-06 13:59:44,655 - tools - INFO - 🎵 ACTUALLY PLAYING: track1.mp3 from data/music/track1.mp3
+2025-07-06 13:59:44,655 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': True, 'current_track': 'track1.mp3', 'current_index': 1, 'track_position': 0}
+2025-07-06 13:59:44,655 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:59:44,655 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Now playing: track1.mp3...
+2025-07-06 13:59:46,616 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:46,618 - agents - INFO - 🤖 Groq AI response: I see what's happening here! It looks like you're ...
+2025-07-06 13:59:46,670 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:46,671 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:46,691 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:46,692 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:46,699 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:46,700 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:46,705 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:46,706 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:46,792 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:46,793 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:47,250 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:47,252 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5981, Requested 479. Please try again in 4.597s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:47,311 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:47,312 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-07-06 13:59:48,109 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:48,111 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5895, Requested 503. Please try again in 3.975s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:48,124 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:48,126 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5894, Requested 495. Please try again in 3.887s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:48,279 - main - INFO - 🎤 Processing input from Test: 'Pause Music'
+2025-07-06 13:59:48,280 - intent_disambiguation - INFO - 🎯 Intent: music/pause_stop (confidence: 1.00) -> entertainment_agent
+2025-07-06 13:59:48,280 - tools - INFO - 🎵 DEBUG: current_playing=True, is_pygame_paused=False
+2025-07-06 13:59:48,280 - tools - INFO - 🎵 DEBUG: pygame.mixer.music.get_busy()=True
+2025-07-06 13:59:48,280 - tools - INFO - 🎵 ACTUALLY PAUSED music
+2025-07-06 13:59:48,280 - tools - INFO - 🚗 Vehicle state updated - music: {'playing': False}
+2025-07-06 13:59:48,280 - agents - INFO - 🎯 Routed to entertainment_agent: 🎵 Music paused...
+2025-07-06 13:59:48,280 - main - INFO - 🎯 Response from entertainment_agent: 🎵 Music paused...
+2025-07-06 13:59:52,326 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:52,328 - agents - INFO - 🤖 Groq AI response: I recognize that request! However, I should let yo...
+2025-07-06 13:59:52,329 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:52,330 - agents - INFO - 🤖 Groq AI response: I've received your request to pause the music! 🎵
+
+...
+2025-07-06 13:59:52,331 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:52,332 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:52,333 - agents - INFO - 🤖 Groq AI response: I've received your request to pause the music! 🎵
+
+...
+2025-07-06 13:59:52,334 - agents - INFO - 🤖 Groq AI response: I see what's happening here! 😊 It seems like you'r...
+2025-07-06 13:59:52,369 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 13:59:52,371 - agents - INFO - 🤖 Groq AI response: I've received your request to pause the music! 🎵
+
+...
+2025-07-06 13:59:52,496 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:52,498 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 7689, Requested 479. Please try again in 21.689s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 13:59:58,601 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 13:59:58,863 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:58,864 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2025-07-06 13:59:59,259 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 13:59:59,351 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:59,353 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2025-07-06 13:59:59,687 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 13:59:59,785 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:59,787 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2025-07-06 13:59:59,858 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 13:59:59,946 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 13:59:59,948 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2025-07-06 14:00:01,094 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 14:00:01,096 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 14:00:01,499 - intent_disambiguation - INFO - 🎯 Intent: climate/temperature_control (confidence: 0.38) -> climate_agent
+2025-07-06 14:00:01,499 - agents - INFO - 🎯 Routed to climate_agent: I'll help you with climate control. Try saying 'se...
+2025-07-06 14:00:02,172 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 14:00:02,265 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:02,266 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+2025-07-06 14:00:02,596 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 14:00:02,681 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:02,682 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2025-07-06 14:00:12,308 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:00:12,311 - agents - INFO - 🤖 Groq AI response: I've got that! You've asked me to toggle the air c...
+2025-07-06 14:00:12,320 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 14:00:12,402 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:12,403 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:12,454 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:12,455 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-06 14:00:13,889 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:13,890 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:13,945 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:13,947 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:14,063 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:14,064 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:14,461 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:14,462 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-06 14:00:15,155 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:00:15,157 - agents - INFO - 🤖 Groq AI response: I'd be happy to help with that!
+
+Since you didn't ...
+2025-07-06 14:00:15,162 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute toggle_ac with parameters {}'
+2025-07-06 14:00:15,251 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:15,252 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:15,508 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:15,510 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-06 14:00:16,564 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:16,566 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5819, Requested 407. Please try again in 2.26s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 14:00:16,577 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute play_music with parameters {}'
+2025-07-06 14:00:16,689 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:16,690 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-07-06 14:00:17,008 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:17,009 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5775, Requested 407. Please try again in 1.814s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 14:00:17,014 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Execute play_music with parameters {}'
+2025-07-06 14:00:17,026 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:17,027 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5773, Requested 407. Please try again in 1.797s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 14:00:17,106 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:17,107 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-07-06 14:00:17,150 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:17,152 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5761, Requested 407. Please try again in 1.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 14:00:18,038 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:00:18,041 - agents - INFO - 🤖 Groq AI response: I've got that! You've asked me to toggle the air c...
+2025-07-06 14:00:18,207 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:18,209 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:18,351 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:18,351 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:18,781 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:18,782 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-07-06 14:00:21,679 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:00:21,681 - agents - INFO - 🤖 Groq AI response: I'd be happy to help with that!
+
+Since you didn't ...
+2025-07-06 14:00:21,826 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:00:21,827 - agents - INFO - 🤖 Groq AI response: I'd be happy to help with that!
+
+Since you didn't ...
+2025-07-06 14:00:21,888 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-06 14:00:21,889 - agents - ERROR - ❌ Groq AI error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-8b-8192` in organization `org_01jzaqs0jpere9txpjt0fge9tr` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6298, Requested 321. Please try again in 6.196s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-07-06 14:22:37,316 - main - INFO - 🔄 Shutting down...
+2025-07-06 14:22:38,369 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 14:22:38,369 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 14:22:38,369 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 14:22:38,369 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 14:22:38,372 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 14:22:38,422 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 14:22:38,423 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 14:22:38,423 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 14:23:11,919 - main - INFO - 🔄 Shutting down...
+2025-07-06 14:23:12,633 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 14:23:12,633 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 14:23:12,633 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 14:23:12,633 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 14:23:12,634 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 14:23:12,651 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 14:23:12,651 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 14:23:12,651 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 14:42:46,594 - main - INFO - 🔄 Shutting down...
+2025-07-06 14:42:47,474 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 14:42:47,474 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 14:42:47,474 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 14:42:47,474 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 14:42:47,477 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 14:42:47,494 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 14:42:47,494 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 14:42:47,494 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 14:45:52,989 - main - INFO - 🔄 Shutting down...
+2025-07-06 14:45:53,698 - main - INFO - 🚀 Starting Agentic AI In-Vehicle Assistant v3.0...
+2025-07-06 14:45:53,698 - main - INFO - 🗺️ Google Maps API: ✅ Configured
+2025-07-06 14:45:53,698 - main - INFO - 🌤️ OpenWeather API: ✅ Configured
+2025-07-06 14:45:53,698 - main - INFO - 🤖 Groq AI API: ✅ Configured
+2025-07-06 14:45:53,698 - agents - INFO - ✅ Memory Manager initialized
+2025-07-06 14:45:53,716 - agents - INFO - ✅ Groq AI integration initialized
+2025-07-06 14:45:53,716 - agents - INFO - ✅ Initialized 7 AI agents with Groq AI fallback
+2025-07-06 14:45:53,716 - main - INFO - ✅ All systems initialized successfully!
+2025-07-06 14:46:12,947 - main - INFO - 🎤 Processing input from Test: 'Hi'
+2025-07-06 14:46:12,961 - main - INFO - 🔍 INTENT DEBUG for 'Hi': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:46:12,961 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Hi'
+2025-07-06 14:46:14,050 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:46:14,055 - agents - INFO - 🤖 Groq AI response: Hi there! It's great to have you on board! I'm you...
+2025-07-06 14:46:14,055 - main - INFO - 🎯 Response from groq_ai_agent: Hi there! It's great to have you on board! I'm your friendly AI assistant in this smart vehicle. How...
+2025-07-06 14:46:19,626 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 14:46:19,627 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:46:19,627 - main - INFO - 🔍 INTENT DEBUG for 'What is my current location?': {'primary_intent': 'navigation', 'subcategory': 'location_query', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['current location', 'location'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:46:19,628 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:46:19,628 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location?'
+2025-07-06 14:46:19,628 - agents - INFO - 📍 Processing location request
+2025-07-06 14:46:19,628 - tools - INFO - 🌍 Using real browser location: 16.720580566062786, 81.10722806887662
+2025-07-06 14:46:20,242 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 14:46:20,244 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 14:47:00,346 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 14:47:00,348 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:00,348 - main - INFO - 🔍 INTENT DEBUG for 'What is my current location?': {'primary_intent': 'navigation', 'subcategory': 'location_query', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['current location', 'location'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:47:00,348 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:00,348 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location?'
+2025-07-06 14:47:00,348 - agents - INFO - 📍 Processing location request
+2025-07-06 14:47:00,348 - tools - INFO - 🌍 Using real browser location: 17.4065, 78.4772
+2025-07-06 14:47:00,753 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Ramachandrapuram, TS, IN...
+2025-07-06 14:47:00,754 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Ramachandrapuram, TS, IN...
+2025-07-06 14:47:12,978 - main - INFO - 🎤 Processing input from Test: 'Find Nearest Hotels'
+2025-07-06 14:47:12,979 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 14:47:12,979 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:12,979 - main - INFO - 🔍 INTENT DEBUG for 'Find Nearest Hotels': {'primary_intent': 'navigation', 'subcategory': 'place_search', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['find', 'nearest', 'hotel', 'hotels'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:47:12,979 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 14:47:12,980 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:12,980 - agents - INFO - 🔧 NavigationAgent processing: 'find nearest hotels'
+2025-07-06 14:47:12,980 - agents - INFO - 🔍 Processing place search request
+2025-07-06 14:47:12,980 - agents - INFO - 🔧 Detected hotel/lodging request
+2025-07-06 14:47:12,980 - agents - INFO - 🔧 Extracted place type: 'lodging' from message: 'find nearest hotels'
+2025-07-06 14:47:12,980 - tools - INFO - 🔍 Enhanced search for lodging near 17.4065, 78.4772
+2025-07-06 14:47:12,980 - tools - INFO - 🔧 Mapping place_type 'lodging' to Google type 'lodging'
+2025-07-06 14:47:14,019 - tools - INFO - 🔧 Found 10 places of type 'lodging'
+2025-07-06 14:47:14,020 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 10 hotels near you:
+
+1. 📍 Amrutha Castle (...
+2025-07-06 14:47:14,020 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 10 hotels near you:
+
+1. 📍 Amrutha Castle (Hotel) - 868m away ⭐ 4/5
+2. 📍 Best Western Ashoka ...
+2025-07-06 14:47:27,622 - main - INFO - 🎤 Processing input from Test: 'Navigate to Courtyard Hyderabad'
+2025-07-06 14:47:27,623 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:47:27,623 - main - INFO - 🔍 INTENT DEBUG for 'Navigate to Courtyard Hyderabad': {'primary_intent': 'navigation', 'subcategory': 'directions', 'confidence': 0.63, 'target_agent': 'navigation_agent', 'matched_keywords': ['navigate'], 'explanation': 'Detected navigation intent with 63.0% confidence'}
+2025-07-06 14:47:27,623 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:47:27,624 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to courtyard hyderabad'
+2025-07-06 14:47:27,624 - agents - INFO - 🧭 Processing directions request
+2025-07-06 14:47:27,624 - agents - INFO - 🎯 Extracted destination: 'courtyard hyderabad' from: 'navigate to courtyard hyderabad'
+2025-07-06 14:47:27,625 - tools - INFO - 🗺️ Getting directions to 'courtyard hyderabad' from 17.4065, 78.4772
+2025-07-06 14:47:28,047 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: 1-3-1024, Lower ...
+2025-07-06 14:47:28,047 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: 1-3-1024, Lower Tank Bund Rd, Bhagyalaxmi Nagar, Kavadiguda, Hyder...
+2025-07-06 14:47:44,894 - main - INFO - 🎤 Processing input from Test: 'What is my current location?'
+2025-07-06 14:47:44,896 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:44,896 - main - INFO - 🔍 INTENT DEBUG for 'What is my current location?': {'primary_intent': 'navigation', 'subcategory': 'location_query', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['current location', 'location'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:47:44,896 - intent_disambiguation - INFO - 🎯 Intent: navigation/location_query (confidence: 1.00) -> navigation_agent
+2025-07-06 14:47:44,897 - agents - INFO - 🔧 NavigationAgent processing: 'what is my current location?'
+2025-07-06 14:47:44,897 - agents - INFO - 📍 Processing location request
+2025-07-06 14:47:44,897 - tools - INFO - 🌍 Using real browser location: 16.720656268528277, 81.10740693425677
+2025-07-06 14:47:45,406 - agents - INFO - 🎯 Routed to navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 14:47:45,406 - main - INFO - 🎯 Response from navigation_agent: 📍 You are in Eluru, AP, IN...
+2025-07-06 14:48:31,569 - main - INFO - 🎤 Processing input from Test: 'Find Hotels nearby'
+2025-07-06 14:48:31,572 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 14:48:31,572 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 1.00) -> navigation_agent
+2025-07-06 14:48:31,572 - main - INFO - 🔍 INTENT DEBUG for 'Find Hotels nearby': {'primary_intent': 'navigation', 'subcategory': 'place_search', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['find', 'nearby', 'hotel', 'hotels'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:48:31,573 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: find
+2025-07-06 14:48:31,573 - intent_disambiguation - INFO - 🎯 Intent: navigation/place_search (confidence: 1.00) -> navigation_agent
+2025-07-06 14:48:31,573 - agents - INFO - 🔧 NavigationAgent processing: 'find hotels nearby'
+2025-07-06 14:48:31,573 - agents - INFO - 🔍 Processing place search request
+2025-07-06 14:48:31,573 - agents - INFO - 🔧 Detected hotel/lodging request
+2025-07-06 14:48:31,573 - agents - INFO - 🔧 Extracted place type: 'lodging' from message: 'find hotels nearby'
+2025-07-06 14:48:31,573 - tools - INFO - 🔍 Enhanced search for lodging near 16.720656268528277, 81.10740693425677
+2025-07-06 14:48:31,573 - tools - INFO - 🔧 Mapping place_type 'lodging' to Google type 'lodging'
+2025-07-06 14:48:32,664 - tools - INFO - 🔧 Found 10 places of type 'lodging'
+2025-07-06 14:48:32,664 - agents - INFO - 🎯 Routed to navigation_agent: 🔍 Found 10 hotels near you:
+
+1. 📍 Lodge (Hotel) - ...
+2025-07-06 14:48:32,664 - main - INFO - 🎯 Response from navigation_agent: 🔍 Found 10 hotels near you:
+
+1. 📍 Lodge (Hotel) - 689m away ⭐ 5/5
+2. 📍 RENU HEIGHTS (Hotel) - 801m a...
+2025-07-06 14:49:11,503 - main - INFO - 🎤 Processing input from Test: 'Navigate to Manya Guestline'
+2025-07-06 14:49:11,505 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:49:11,505 - main - INFO - 🔍 INTENT DEBUG for 'Navigate to Manya Guestline': {'primary_intent': 'navigation', 'subcategory': 'directions', 'confidence': 0.63, 'target_agent': 'navigation_agent', 'matched_keywords': ['navigate'], 'explanation': 'Detected navigation intent with 63.0% confidence'}
+2025-07-06 14:49:11,505 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:49:11,505 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to manya guestline'
+2025-07-06 14:49:11,505 - agents - INFO - 🧭 Processing directions request
+2025-07-06 14:49:11,506 - agents - INFO - 🎯 Extracted destination: 'manya guestline' from: 'navigate to manya guestline'
+2025-07-06 14:49:11,506 - tools - INFO - 🗺️ Getting directions to 'manya guestline' from 16.720656268528277, 81.10740693425677
+2025-07-06 14:49:11,980 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: 22C-2-6, Chundur...
+2025-07-06 14:49:11,981 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: 22C-2-6, Chunduri Vari Choultry St, Powerpet, Eluru, Andhra Prades...
+2025-07-06 14:49:21,209 - main - INFO - 🎤 Processing input from Test: 'Places to visit in Eluru'
+2025-07-06 14:49:21,210 - main - INFO - 🔍 INTENT DEBUG for 'Places to visit in Eluru': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:49:21,210 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Places to visit in Eluru'
+2025-07-06 14:49:22,644 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:49:22,648 - agents - INFO - 🤖 Groq AI response: 🌟 Eluru, a city with a rich history and cultural h...
+2025-07-06 14:49:22,648 - main - INFO - 🎯 Response from groq_ai_agent: 🌟 Eluru, a city with a rich history and cultural heritage! There are plenty of exciting places to vi...
+2025-07-06 14:50:21,661 - main - INFO - 🎤 Processing input from Test: 'Navigate to Eluru Museum'
+2025-07-06 14:50:21,663 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:50:21,663 - main - INFO - 🔍 INTENT DEBUG for 'Navigate to Eluru Museum': {'primary_intent': 'navigation', 'subcategory': 'directions', 'confidence': 0.63, 'target_agent': 'navigation_agent', 'matched_keywords': ['navigate'], 'explanation': 'Detected navigation intent with 63.0% confidence'}
+2025-07-06 14:50:21,663 - intent_disambiguation - INFO - 🎯 Intent: navigation/directions (confidence: 0.63) -> navigation_agent
+2025-07-06 14:50:21,663 - agents - INFO - 🔧 NavigationAgent processing: 'navigate to eluru museum'
+2025-07-06 14:50:21,664 - agents - INFO - 🧭 Processing directions request
+2025-07-06 14:50:21,664 - agents - INFO - 🎯 Extracted destination: 'eluru museum' from: 'navigate to eluru museum'
+2025-07-06 14:50:21,664 - tools - INFO - 🗺️ Getting directions to 'eluru museum' from 16.720656268528277, 81.10740693425677
+2025-07-06 14:50:22,281 - agents - INFO - 🎯 Routed to navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pr...
+2025-07-06 14:50:22,282 - main - INFO - 🎯 Response from navigation_agent: 🧭 Navigation Route
+📍 Destination: Eluru, Andhra Pradesh, India
+📏 Distance: 2.5 km
+⏱️ Duration: 9 min...
+2025-07-06 14:50:33,805 - main - INFO - 🎤 Processing input from Test: 'Plan a 4 day trip to Kerala'
+2025-07-06 14:50:33,806 - main - INFO - 🔍 INTENT DEBUG for 'Plan a 4 day trip to Kerala': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:50:33,806 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Plan a 4 day trip to Kerala'
+2025-07-06 14:50:34,846 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:50:34,847 - agents - INFO - 🤖 Groq AI response: A trip to Kerala sounds like a wonderful idea! Ker...
+2025-07-06 14:50:34,847 - main - INFO - 🎯 Response from groq_ai_agent: A trip to Kerala sounds like a wonderful idea! Kerala, known as "God's Own Country," is a state in s...
+2025-07-06 14:50:59,260 - main - INFO - 🎤 Processing input from Test: 'Plan a generic 4 day trip to Kerala '
+2025-07-06 14:50:59,262 - main - INFO - 🔍 INTENT DEBUG for 'Plan a generic 4 day trip to Kerala ': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:50:59,262 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Plan a generic 4 day trip to Kerala '
+2025-07-06 14:51:01,157 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:51:01,162 - agents - INFO - 🤖 Groq AI response: 🌴 Planning a 4-day trip to Kerala, eh? 🌴
+
+Since yo...
+2025-07-06 14:51:01,162 - main - INFO - 🎯 Response from groq_ai_agent: 🌴 Planning a 4-day trip to Kerala, eh? 🌴
+
+Since you didn't specify any preferences, I'll plan a gene...
+2025-07-06 14:51:25,308 - main - INFO - 🎤 Processing input from Test: 'How is the weather outside'
+2025-07-06 14:51:25,309 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 14:51:25,309 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 1.00) -> navigation_agent
+2025-07-06 14:51:25,309 - main - INFO - 🔍 INTENT DEBUG for 'How is the weather outside': {'primary_intent': 'navigation', 'subcategory': 'weather', 'confidence': 1.0, 'target_agent': 'navigation_agent', 'matched_keywords': ['weather', 'how is the weather'], 'explanation': 'Detected navigation intent with 100.0% confidence'}
+2025-07-06 14:51:25,310 - intent_disambiguation - INFO - 🚫 Reducing score for climate due to exclusion: weather
+2025-07-06 14:51:25,310 - intent_disambiguation - INFO - 🎯 Intent: navigation/weather (confidence: 1.00) -> navigation_agent
+2025-07-06 14:51:25,310 - agents - INFO - 🔧 NavigationAgent processing: 'how is the weather outside'
+2025-07-06 14:51:25,310 - agents - INFO - 🌤️ Processing weather request
+2025-07-06 14:51:25,708 - agents - INFO - 🎯 Routed to navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (fe...
+2025-07-06 14:51:25,709 - main - INFO - 🎯 Response from navigation_agent: 🌤️ Weather in Eluru, IN: 34°C, Overcast Clouds (feels like 38°C)
+💧 Humidity: 49%
+💨 Wind: 24.8 km/h...
+2025-07-06 14:51:40,953 - main - INFO - 🎤 Processing input from Test: 'Trending News in this area'
+2025-07-06 14:51:40,957 - main - INFO - 🔍 INTENT DEBUG for 'Trending News in this area': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:51:40,963 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Trending News in this area'
+2025-07-06 14:51:41,815 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:51:41,818 - agents - INFO - 🤖 Groq AI response: It seems like you'd like to know the current weath...
+2025-07-06 14:51:41,818 - main - INFO - 🎯 Response from groq_ai_agent: It seems like you'd like to know the current weather and trending news in Eluru, India. 😊
+
+As I ment...
+2025-07-06 14:52:19,477 - main - INFO - 🎤 Processing input from Test: 'Tell me something interesting related to Tesla'
+2025-07-06 14:52:19,478 - main - INFO - 🔍 INTENT DEBUG for 'Tell me something interesting related to Tesla': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:52:19,478 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Tell me something interesting related to Tesla'
+2025-07-06 14:52:20,542 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:52:20,544 - agents - INFO - 🤖 Groq AI response: 🚀 Ah, Tesla, eh? Well, did you know that Tesla's A...
+2025-07-06 14:52:20,544 - main - INFO - 🎯 Response from groq_ai_agent: 🚀 Ah, Tesla, eh? Well, did you know that Tesla's Autopilot technology is being tested on Indian road...
+2025-07-06 14:52:33,809 - main - INFO - 🎤 Processing input from Test: 'Entertain me'
+2025-07-06 14:52:33,810 - main - INFO - 🔍 INTENT DEBUG for 'Entertain me': {'primary_intent': 'general_conversation', 'subcategory': 'unknown', 'confidence': 0.0, 'target_agent': 'master_agent', 'matched_keywords': [], 'explanation': 'No specific intent detected, using general conversation'}
+2025-07-06 14:52:33,810 - agents - INFO - 🤖 No specific intent detected, using Groq AI for: 'Entertain me'
+2025-07-06 14:52:34,671 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 14:52:34,673 - agents - INFO - 🤖 Groq AI response: I'd be happy to entertain you! Since you're alread...
+2025-07-06 14:52:34,673 - main - INFO - 🎯 Response from groq_ai_agent: I'd be happy to entertain you! Since you're already in the mood for something exciting, let's have s...
